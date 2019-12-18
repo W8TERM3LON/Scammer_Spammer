@@ -9,4 +9,4 @@ Spam login scammers with this python script.
 
     - Take a look at his repo [here](https://github.com/engineer-man/youtube/tree/master/033)
 
-    - Watch his video if you need help on getting the URL and form parameters. Start watching [here](https://youtu.be/UtNYzv8gLbs?t=40)
+    - Watch his video if you need help on getting the URL and form data. Start watching [here](https://youtu.be/UtNYzv8gLbs?t=40)
