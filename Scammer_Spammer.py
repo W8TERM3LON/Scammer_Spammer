@@ -107,4 +107,3 @@ while True:
     print()
     print("Sending username " + username + " and password " + password )
     print("Resolutions " + resolution + " and " + windowreso)
-    print()
