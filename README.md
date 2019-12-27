@@ -1,6 +1,6 @@
 # <div align="center"> 🚫Phish🚫
 
-## Phishing sites getting on your nerves? Feed them fake data! Lots of it!
+## Phishing sites getting on your nerves? Or you just realized you've been phished? Feed them fake data! Lots of it!
 
 # <div align="center"> About
 
