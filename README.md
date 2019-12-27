@@ -1,10 +1,10 @@
-# <div align="center"> 🚫Phish🚫
+# <div align="center"> 🚫Phisher Squisher🚫
 
 ## Phishing sites getting on your nerves? Or you just realized you've been phished? Feed them fake data! Lots of it!
 
 # <div align="center"> About
 
-**🚫Phish🚫** is a easy to use program written in Python used to combat phishing scams by feeding them massive amounts of fake logins, thus rendering their valid logins that they phished up near impossible to find nor use, at the same time forcing them to either temporarily close the site or abandon it completely due to the massive amounts of unusable data.
+**🚫Phisher Squisher🚫** is a easy to use program written in Python used to combat phishing scams by feeding them massive amounts of fake logins, thus rendering their valid logins that they phished up near impossible to find nor use, at the same time forcing them to either temporarily close the site or abandon it completely due to the massive amounts of unusable data.
 
 # <div align="center"> Features
 - Allows you to feed massive amounts of fake usernames and passwords to phishing sites.
