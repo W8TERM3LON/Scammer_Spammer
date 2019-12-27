@@ -1,4 +1,4 @@
-Spam login scammers with this python script.
+Spam login scammers with this python script. (Also known as phishing sites)
 =============
 
 - Remember to replace URL and post request parameters to suit your own targeted URL. (The URL will most likely end in .php)
