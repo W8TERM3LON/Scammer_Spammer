@@ -15,8 +15,10 @@ s = requests.Session()
 chars = string.ascii_letters + string.digits + '!@#$%^&*()'
 random.seed = (os.urandom(1024))
 
-#Replace with Scammer URL (Should end in .PHP)
-url = 'https://scvr-signinaccountprotection.nsupdate.info/action/post_signin.php'
+#Replace with Scammer URL (Usually ends in .PHP but doesn't have to)
+url = 'REPLACE WITH URL'
+
+print('Started')
 
 while True:
     #Generate random first/last name
@@ -76,27 +78,8 @@ while True:
         username = name.lower() + '@comcast.net'
 
     #Chooses randomly generated password between 8-16 characters long
-    password = ''.join(random.choice(chars) for i in range(random.choice([8,9,10,11,12,13,14,15,16])))
+    password = ''.join(random.choice(chars) for i in range(random.choice([8,8,8,9,10,11,12,13,14,15,16,17,18,19,20])))
 
-    #Chooses screen resolution
-    randomresolution = random.choice([1,2,3,4])
-    if randomresolution == 1:
-        #720P
-        resolution = '1280 x 720'
-        windowreso = '1213 x 612'
-    if randomresolution == 2:
-        #1080P
-        resolution = '1920 x 1080'
-        windowreso = '1853 x 972'
-    if randomresolution == 3:
-        #1366 x 768
-        resolution = '1366 x 768'
-        windowreso = '1299 x 660'
-    if randomresolution == 4:
-        #1440 x 900
-        resolution = '1440 x 900'
-        windowreso = '1373 x 792'
-    idk = '-6'
 
     #Disables HTTPS warning
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -104,15 +87,11 @@ while True:
     #Make post request
     #Replace parameters as needed.
     s.post(url, allow_redirects=False, verify=False, data={
-        '913f9c49dcb544e2087cee284f4a00b7': resolution,
-        '8e3f1bbb73f0f6c952fcf873332eae9f': windowreso,
-        'b2c6cc48f97ccd71b16d31d88fc177a6': idk,
-		'0c83f57c786a0b4a39efab23731c7ebc': username,
-		'5f4dcc3b5aa765d61d8327deb882cf99': password
+		'login_email': username,
+		'login_password': password,
 	})
 
     #prints output
     print()
     print("Sending username: " + username + " and Password: " + password )
-    print("Resolutions: " + resolution + " and " + windowreso)
     print("To: " + url)
